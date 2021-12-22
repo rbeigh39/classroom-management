@@ -1,0 +1,9 @@
+git add -A 
+git commit -m "update message"
+git push origin master
+git push heroku master
+
+
+// checking serever logs
+heroku logs --tail
+
