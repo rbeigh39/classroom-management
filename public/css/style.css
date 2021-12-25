@@ -282,6 +282,8 @@ body {
   z-index: -1; }
 
 .notifications__container {
+  margin: 0 auto;
+  max-width: 80rem;
   background-color: #F9F7F6;
   padding: 1.6rem;
   border-radius: 2rem;
@@ -315,6 +317,8 @@ body {
   z-index: -1; }
 
 .resources__container {
+  margin: 0 auto;
+  max-width: 80rem;
   background-color: #F9F7F6;
   padding: 1.6rem;
   border-radius: 2rem;
