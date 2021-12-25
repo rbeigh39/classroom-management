@@ -14,7 +14,7 @@ dotenv.config({
 const app = require('./app');
 
 let conUrl = process.env.DATABASE_CLOUD;
-conUrl = conUrl.replace('<password>', process.env.DATABASE_PASSWORD);
+conUrl = conUrl.replace('PASSWORD', process.env.DATABASE_PASSWORD);
 
 mongoose
    .connect(conUrl, {
