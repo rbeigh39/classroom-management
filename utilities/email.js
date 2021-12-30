@@ -19,7 +19,7 @@ const sendEmail = async (options) => {
 
    // 2. Define mail options
    const mailOptions = {
-      from: 'Hayan Beigh, <hello@vtrack.com>',
+      from: 'Rayan Beigh, <hello@pubble-app.herokuapp.com>',
       to: options.email,
       subject: options.subject,
       text: options.message,
